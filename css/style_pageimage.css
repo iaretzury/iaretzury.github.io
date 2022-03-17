@@ -1,0 +1,230 @@
+@charset "utf-8";
+@import url("../webfonts/Pacifico/stylesheet.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap");
+@font-face{
+    font-family: "yaret";
+    src:url("../webfonts/Black Way - Personal Use.otf");
+}
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+nav ul li a {
+    list-style-type: none;
+    font-size: 16px;
+    text-decoration: none;
+}
+nav ul li a:link {
+    color: #FFFFFF;
+}
+nav ul li a:visited {
+    color: #318DCA;
+}
+
+nav ul li a:hover {
+    color: #668498;
+}
+main {
+    background-color: #465771;
+    padding: 50px;
+    height: auto;
+}
+main section {
+    padding: 30px;
+    background-color: #E4EBF2;
+    margin: 30px  auto;
+    width: 70%;
+}
+footer {
+    background-color: #222D41;
+    color: #E4EBF2;
+    text-align: center;
+    width: 200px;
+}
+footer h6 {
+    margin: 0 auto;
+    width: 30%;
+    font-size: 14px;
+    font-weight: bold;
+}
+header  {
+    background-color: #318DCA;
+    color: #FFFFFF;
+    text-align: center;
+}
+header h1 {
+    margin: 0 auto;
+    width: 40%;
+    font-family: 'Montserrat';
+    letter-spacing: 9px;
+    font-weight: lighter;
+    font-size: 36px;
+}
+main section img {
+    border-left: 10px solid #FFFFFF;
+    border-right: 10px solid #FFFFFF;
+    border-bottom: 50px solid #FFFFFF;
+    border-top: 10px solid #FFFFFF;
+    margin-top: 20px;
+}
+nav {
+    background-color: #222D41;
+}
+nav ul li {
+    width: 100px;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+}
+header, nav, main, footer {
+    margin: 0 auto;
+    padding: 20px;
+    width: 80%;
+}
+p{
+    font-family: 'Montserrat';
+}
+
+#foto_1 {
+    width: 50%;
+    height: auto;
+    border: 10px inset #909090;
+}
+#foto_2 {
+    border: none;
+    width: 70%;
+    height: auto;
+}
+.foto_3 {
+    border: none;
+    width: 40%;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+}
+#foto_der {
+    float: right;
+    width: 25%;
+    height: auto;
+}
+.foto_size {
+    width: 30%;
+    height: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-bottom-width: 10px;
+}
+.filtro_blur {
+    filter: blur(5px);
+}
+.filtro_brigthness {
+    filter: brightness(80%);
+}
+.filtro_contrast {
+    filter: contrast(70%);
+}
+.filtro_grayscale {
+    filter: grayscale(100%);
+}
+.filtro_opacity {
+    filter: opacity(10%);
+}
+.filtro_saturate {
+    filter: saturate(30%);
+}
+.filtro_sepia {
+    filter: sepia(50%);
+}
+.filtro_invert {
+    filter: invert(90%);
+}
+main section p {
+    color: #465771;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 100;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+main section h2 {
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    text-shadow: 0px 4px #D3D3D3;
+    letter-spacing: 3px;
+}
+.size_video {
+    width: 70%;
+    padding: 10px;
+    height: auto;
+    min-height: 300px;
+}
+
+input[type=text],textarea{
+    width: 30%;
+    padding: 5px;
+    margin: 5px 5px;
+    border: 1px solid #3BA9F3;
+    border-radius: 2px;
+    color:#668498;
+}
+input[type=email]{
+    width: 30%;
+    padding: 5px;
+    margin: 5px 5px;
+    border: 1px solid #3BA9F3;
+    border-radius:2px;
+    color:#668498;
+    background-color: #AEB0B1;
+}
+input[type=submit]{
+    width: 18%;
+    height: 30px;
+    background-color: #465771;
+    color: #E4EBF2;
+    border-radius: 20px;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    width: 20%;
+    height: 32px;
+    
+}
+
+#form3 #submit3:hover {
+    background-color: #ABC3D3;
+    color: #465771;
+}
+#comentario{
+    resize: none;
+    padding: 10px;
+}
+
+main section h2 {
+    font-family: cabin-sketch;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+}
+.fuentes_google_local {
+    font-family: Pacifico;
+    font-size: 24px;
+}
+.fuente_google_enlazada{
+    font-family: 'Rock Salt', cursive;
+    font-size: 18px;
+}
+.parrafo_1{
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: "Zilla Slab", serif;
+    font-size: 16px;
+}
+.titulo_yar{
+    font-family: "yaret";
+}
+.imagen_section {
+    width: 50%;
+    height: 50%;
+}
